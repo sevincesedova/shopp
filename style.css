@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+.nav_list1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.nav_list2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav2 h3{
+    font-weight: bold;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+.nav_list1 ul:hover{
+  color: azure;
+}
+nav a{
+    color: rgb(94, 93, 93);
+    font-family: "Open Sans", sans-serif;
+}
+.nav1 h4{
+    color: rgb(94, 93, 93);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+.bg_img{
+    width: 100%;
+    height: 50vh;
+    background-image: url('https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/henry-be-bAFiBDMeiVI-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+.text{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  padding: 20vh 0;
+}
+.text1{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(94, 93, 93);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.link1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.text1 a{
+    color: rgb(94, 93, 93);
+}
+/* main */
+.categories{
+    width: 30%;
+}
+.categories a{
+    color:rgb(94, 93, 93) ;
+}
+.categories ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 30px;
+   padding: 40px 0px;
+}
+.cards .card{
+    width: 30% ;
+}
+.cards .card img{
+    width: 100%;
+    
+}
+.cards .card{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+}
+.card i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#icon{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+.txt{
+    color:rgb(94, 93, 93) ;
+}
+/* .iconss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconss ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} */
+/* footer */
+footer{
+    padding: 100px 0px;
+    background-color: black;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.end1{
+    width: 40%;
+}
+.end1 h2{
+    font-size: 30px;
+    /* padding: 40px 0px; */
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+.formm{
+    padding: 40px 0px;
+}
+.formm input{
+    height: 30px;
+    background-color: black;
+
+}
+.formm button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(43, 41, 41);
+}
+button a{
+    color: white;
+}
+.list_end ul{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding: 20px 0px;
+   font-size: 30px;
+}
+.end2 {
+    color: white;
+    width: 60%;
+}
+.list1 ul{
+    display: flex;
+    justify-content: space-around;
+   font-size: 20px;
+}
+.list2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.listt{
+    flex-direction: column;
+    padding: 20px;
+}
+.listt a{
+    color: white;
+}
+button:hover{
+    background-color: rgb(62, 60, 60);
+    transition: 0.5s;
+}
+.list2 a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.nav_list2 a:hover{
+    color: rgb(229, 223, 223);
+    transition: 0.5s;
+}
